@@ -2,7 +2,7 @@ import csv
 import anthropic
 
 # Set up Anthropic API key
-anthropic_api_key = "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"
+anthropic_api_key = "YOUR_API_KEY"
 anthropic.api_key = anthropic_api_key
 
 # Function to generate tags using Claude AI
