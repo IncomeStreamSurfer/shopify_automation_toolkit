@@ -1,8 +1,8 @@
 $headers = @{
-    "X-Shopify-Access-Token" = "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"
+    "X-Shopify-Access-Token" = "YOUR_ACCESS_TOKEN"
 }
 
-$url = "https://e565dd-2.myshopify.com/admin/api/2023-04/smart_collections.json"
+$url = "YOUR_URL"
 
 function Get-ShopifyData {
     param(
