@@ -5,11 +5,11 @@ from time import sleep
 import requests
 
 # Set up Anthropic API key
-anthropic_api_key = "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"
+anthropic_api_key = "YOUR_API_KEY"
 anthropic.api_key = anthropic_api_key
 
 # Set up OpenAI API key
-openai.api_key = "sk-proj-m50BQ0JAB2PWVO84kr1MT3BlbkFJA8tvey0dcbG7zbWx94KP"
+openai.api_key = "YOUR_OPEN_AI_API_KEY"
 
 # Function to generate guest post using Claude AI
 def generate_guest_post(topic, keywords, word_count):
